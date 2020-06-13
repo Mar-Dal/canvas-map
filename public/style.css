@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+#myCanvas{
+  border-style: solid;
+  border-width: 25px;
+  border-color:white;
+  cursor: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg');
+  background-size:500px 500px;
+  background-repeat:no-repeat;
+}
+form{
+  margin-top:20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#cursor {
+  visibility: hidden;
+  pointer-events: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  background-color: skyblue;
+  position: absolute;
+}
